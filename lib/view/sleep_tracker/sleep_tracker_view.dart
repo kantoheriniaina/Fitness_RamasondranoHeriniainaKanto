@@ -453,8 +453,8 @@ class _SleepTrackerViewState extends State<SleepTrackerView> {
     return SideTitleWidget(
       // axisSide: meta.axisSide,
       space: 10,
-      child: text,
       meta: meta,
+      child: text,
     );
   }
 }

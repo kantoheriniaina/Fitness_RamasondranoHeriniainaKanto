@@ -8,6 +8,8 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -25,15 +27,15 @@ class ExamplePage extends StatefulWidget {
 }
 
 class _ExamplePageState extends State<ExamplePage> {
-  CalendarAgendaController _calendarAgendaControllerAppBar =
+  final CalendarAgendaController _calendarAgendaControllerAppBar =
       CalendarAgendaController();
-  CalendarAgendaController _calendarAgendaControllerNotAppBar =
+  final CalendarAgendaController _calendarAgendaControllerNotAppBar =
       CalendarAgendaController();
 
   late DateTime _selectedDateAppBBar;
   late DateTime _selectedDateNotAppBBar;
 
-  Random random = new Random();
+  Random random = Random();
 
   @override
   void initState() {

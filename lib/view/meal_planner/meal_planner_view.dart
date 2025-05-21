@@ -524,8 +524,8 @@ class _MealPlannerViewState extends State<MealPlannerView> {
 
     return SideTitleWidget(
       space: 10,
-      child: text,
       meta: meta,
+      child: text,
     );
   }
 }

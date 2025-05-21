@@ -401,8 +401,8 @@ class _ActivityTrackerViewState extends State<ActivityTrackerView> {
     }
     return SideTitleWidget(
       space: 16,
-      child: text,
       meta: meta,
+      child: text,
     );
   }
    List<BarChartGroupData> showingGroups() => List.generate(7, (i) {

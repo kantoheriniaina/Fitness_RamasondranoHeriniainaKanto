@@ -492,8 +492,8 @@ class _WorkoutTrackerViewState extends State<WorkoutTrackerView> {
     return SideTitleWidget(
       // axisSide: meta.axisSide,
       space: 10,
-      child: text,
       meta: meta,
+      child: text,
     );
   }
 }

@@ -1127,8 +1127,8 @@ class _HomeViewState extends State<HomeView> {
 
     return SideTitleWidget(
       space: 10,
-      child: text,
       meta: meta,
+      child: text,
     );
   }
 }

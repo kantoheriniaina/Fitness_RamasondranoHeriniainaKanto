@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "80176465976",
+    "project_id": "fitnessprojetflutter",
+    "storage_bucket": "fitnessprojetflutter.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80176465976:android:e4f7a39a089f87d8e5fecd",
+        "android_client_info": {
+          "package_name": "com.company.fitness"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuKSXxp6aCC_Rv1hCA_aU4yVDaC5rfcmg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80176465976:android:9c8d4e8da899164fe5fecd",
+        "android_client_info": {
+          "package_name": "com.example.fitness_workout_app_flutter_3_ui_new"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuKSXxp6aCC_Rv1hCA_aU4yVDaC5rfcmg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

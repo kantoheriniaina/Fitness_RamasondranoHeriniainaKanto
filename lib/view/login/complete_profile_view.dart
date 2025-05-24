@@ -7,7 +7,6 @@ import 'package:fitness/common_widget/round_textfield.dart';
 import 'package:fitness/view/login/what_your_goal_view.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:fitness/model/users.dart';
 
 class CompleteProfileView extends StatefulWidget {
   const CompleteProfileView({super.key});

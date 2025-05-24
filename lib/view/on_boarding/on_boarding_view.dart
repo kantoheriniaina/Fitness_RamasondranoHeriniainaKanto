@@ -40,19 +40,19 @@ class _OnBoardingViewState extends State<OnBoardingView> {
       "title": "Get Burn",
       "subtitle":
           "Let’s keep burning, to achive yours goals, it hurts only temporarily, if you give up now you will be in pain forever",
-      "image": "assets/img/on_2.png"
+      "image": "assets/img/Home2.png"
     },
     {
       "title": "Eat Well",
       "subtitle":
           "Let's start a healthy lifestyle with us, we can determine your diet every day. healthy eating is fun",
-      "image": "assets/img/on_3.png"
+      "image": "assets/img/Home3.png"
     },
     {
       "title": "Improve Sleep\nQuality",
       "subtitle":
           "Improve the quality of your sleep with us, good quality sleep can bring a good mood in the morning",
-      "image": "assets/img/on_4.png"
+      "image": "assets/img/Home4.png"
     },
   ];
 

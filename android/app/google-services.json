@@ -7,31 +7,25 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:80176465976:android:e4f7a39a089f87d8e5fecd",
-        "android_client_info": {
-          "package_name": "com.company.fitness"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCuKSXxp6aCC_Rv1hCA_aU4yVDaC5rfcmg"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
         "mobilesdk_app_id": "1:80176465976:android:9c8d4e8da899164fe5fecd",
         "android_client_info": {
           "package_name": "com.example.fitness_workout_app_flutter_3_ui_new"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "80176465976-4q3fdug7upjcjh009ca0rjah8ltgtgan.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fitness_workout_app_flutter_3_ui_new",
+            "certificate_hash": "e58aba5f6e94dc598f7dfe762ef037506d768aa1"
+          }
+        },
+        {
+          "client_id": "80176465976-66m4t83cr9ih6hrksnpgpicd70s8pi1f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyCuKSXxp6aCC_Rv1hCA_aU4yVDaC5rfcmg"
@@ -39,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80176465976-66m4t83cr9ih6hrksnpgpicd70s8pi1f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

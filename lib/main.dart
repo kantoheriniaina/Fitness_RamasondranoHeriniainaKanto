@@ -1,3 +1,5 @@
+import 'package:fitness/common_widget/on_boarding_page.dart';
+import 'package:fitness/view/on_boarding/on_boarding_view.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';  
@@ -19,7 +21,7 @@ Future<void> testFirestore() async {
   try {
     await FirebaseFirestore.instance.collection('test').add({
       'timestamp': DateTime.now().toIso8601String(),
-      'message': 'Firebase fonctionne depuis main() ! 🎉',
+      'message': 'Firebase fonctionne depuis main() ! ',
     });
     print(" Firestore : Donnée envoyée !");
   } catch (e) {
@@ -39,7 +41,9 @@ class MyApp extends StatelessWidget {
         primaryColor: TColor.primaryColor1,
         fontFamily: "Poppins",
       ),
-      home: const MainTabView(),
+      // home: const MainTabView(),
+      // affichage du page d'accueil
+      home: const OnBoardingView(),
     );
   }
 }

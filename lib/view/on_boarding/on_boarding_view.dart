@@ -34,7 +34,7 @@ class _OnBoardingViewState extends State<OnBoardingView> {
       "title": "Track Your Goal",
       "subtitle":
           "Don't worry if you have trouble determining your goals, We can help you determine your goals and track your goals",
-      "image": "assets/img/on_1.png"
+      "image": "assets/img/Home1.png"
     },
     {
       "title": "Get Burn",

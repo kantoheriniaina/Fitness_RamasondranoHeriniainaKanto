@@ -14,7 +14,7 @@ void main() async {
   runApp(const MyApp());
 }
 
-// Fonction de test Firestore appelée au lancement
+// Fonction de test Firestore appelée au lancement  
 Future<void> testFirestore() async {
   try {
     await FirebaseFirestore.instance.collection('test').add({
